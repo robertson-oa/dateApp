@@ -1,5 +1,8 @@
 body {
     font-family: helvetica;
+    background-color: #816385;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
 }
 
 #header {
@@ -22,7 +25,44 @@ h1 {
 #results {
     margin: 30px 20px 10px 0px;
 }
+select{
+    outline: none;
+  border: 2px solid #57345c;
+  width: 320px;
+  border-radius: 10px;
+  height: 30px;
+}
 
+input{
+  outline: none;
+  border: 2px solid #57345c;
+  width: 300px;
+  border-radius: 10px;
+  height: 30px;
+}
+#searchBtn{
+background-color:#57345c;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  border: 2px solid black;
+}
+
+button{
+    background-color:#57345c;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  border: 2px solid black;
+}
 .person-row {
     margin: 10px 0px;
     padding: 10px;
@@ -47,4 +87,9 @@ h1 {
 
 .person-row > button {
    float: right; 
+}
+
+img{
+    width: 70px;
+    border-radius: 50%;
 }
